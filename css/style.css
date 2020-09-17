@@ -53,11 +53,31 @@ a {
   border-radius: 5px;
 }
 
+.btn-green {
+  background-color: #7cbb02;
+  border: none;
+}
+
+.btn-large {
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.w50 {
+  width: 50%;
+}
+
 /* HEADER */
 
 header {
-  height: 600px;
+  height: 800px;
   background: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
 }
 
 .logo-top {
@@ -83,4 +103,19 @@ header {
 
 .top-dx .btn:first-child {
   margin:0 10px 0;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  margin-bottom: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
