@@ -10,6 +10,16 @@ body {
   font-size: 16px;
 }
 
+li {
+  display: inline-block;
+}
+
+/* TYPOGRAPHY */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /* UTILITY */
 
 .container {
@@ -18,7 +28,31 @@ body {
   background: red;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+/* HEADER */
+
 header {
-  height: 800px;
+  height: 600px;
   background: #0c325a;
+}
+
+.logo-top {
+  width: 15%;
+}
+
+.top-sx {
+  width: 50%;
+}
+
+.top-dx {
+  width: 35%;
 }
