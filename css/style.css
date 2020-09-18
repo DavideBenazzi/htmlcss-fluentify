@@ -137,6 +137,8 @@ p {
 
 .w40 {
   width: 40%;
+  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .barra-orizz {
@@ -245,6 +247,14 @@ header {
 #boh {
   color: #808080;
   margin-right: 30px;
+}
+
+#boh:hover {
+  color: orange;
+}
+
+#boh:focus {
+  color: aquamarine;
 }
 
 .btn-help {
